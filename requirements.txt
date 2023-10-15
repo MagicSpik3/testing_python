@@ -1,0 +1,16 @@
+# pip install -r requirements.txt
+# local package
+-e .
+
+# external requirements
+pandas
+jupyter
+pandera
+pytest
+pytest-cov
+nbdime
+black[jupyter]
+pandas-vet
+flake8-bugbear
+flake8-variables-names
+flake8-builtins
